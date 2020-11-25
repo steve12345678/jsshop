@@ -77,7 +77,7 @@
 # 8 Add Webpack
 1. cd frontend
 2. npm install -D webpack-cli webpack-dev-server
-3. npm install live-server
+3. npm uninstall live-server
 4. "start": "webpack-dev-server --mode development --watch-content-base --open"
 5. move index.html, syle.css and images to frontend folder
 6. rename app.js to index.js
