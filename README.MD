@@ -133,3 +133,6 @@
 8. style div.rating, span and last span
 9. Edit HomeScreen
 10 Add div.product-rating and use Rating component
+
+
+
