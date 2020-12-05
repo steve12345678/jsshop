@@ -88,9 +88,21 @@
 11. change fetch to axios in HomeScreen.js
 
 # 9 Install Babel For ES6 Syntax
-1. npm install -D babel core, cle, node, preset-env
-2. Create babel.rc and set presets to @babel/preset-env
+1. npm install -d @babel/core @babel/cli @babel/node @babel/preset-env
+2. create babel.rc and set presets to @babel/preset-env and targets node current
 3. npm install -D nodemon
 4. set start: nodemon --watch backend --exec babel-node backend/server.js
 5. convert require to import in server.js
 6. npm start
+
+# 10 Enable Code Linting
+1. npm install -D eslint
+2. search eslint in extensions and see if installed
+3. configuration - create .eslintrs.js and module.exports ={ env: {browser:true, node:true, es2020:true}, extends:['airbnb-base'], parserOptions:{
+    sourceType:"module",
+    ecmaVersion:11
+}}
+4. install devs dep eslint-config-airbnb-base and eslint-plugin-import
+5. example to add rules section in .eslintrc.js and after comma add rules:{ 'no-console':0}
+6. to change settingsv: ctrl+shift+p ->type json ->preferences and add "editor.formatOnSave":true, and 
+   "editor.codeActionOnSave":{"source.fixAll.eslint":true}
