@@ -106,3 +106,11 @@
 5. example to add rules section in .eslintrc.js and after comma add rules:{ 'no-console':0}
 6. to change settingsv: ctrl+shift+p ->type json ->preferences and add "editor.formatOnSave":true, and 
    "editor.codeActionOnSave":{"source.fixAll.eslint":true}
+
+# 11 Install VSCode Extensions
+ 1. JavaScript (ES6) code snippets
+ 2. ES7 React/Redux/GraphQL/React-Native snippets
+ 3. Prettier - code formatter
+ 4. HTML & LESS grammar injections
+ 5. CSS Peek
+ 
