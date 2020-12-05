@@ -108,9 +108,8 @@
    "editor.codeActionOnSave":{"source.fixAll.eslint":true}
 
 # 11 Install VSCode Extensions
- 1. JavaScript (ES6) code snippets
- 2. ES7 React/Redux/GraphQL/React-Native snippets
- 3. Prettier - code formatter
- 4. HTML & LESS grammar injections
- 5. CSS Peek
+ 1. JavaScript (ES6) code snippets - search "javascript es6"
+ 2. ES7 React/Redux/GraphQL/React-Native snippets - search "es7 react"
+ 3. Prettier - code formatter - search "prettier"- to resolve conflict with eslint npm install -D eslint-config-prettier and add 'prettier' to extends section in .eslintrc.js
+ 4. HTML & LESS grammar injections - search "grammar injections"
  
