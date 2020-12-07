@@ -123,6 +123,7 @@
 4.  HTML & LESS grammar injections - search "grammar injections"
 
 # 12 Crate Rating Component
+
 1. create component/Rating.js
 2. create div.rating
 3. link to fontawesome.css in index.html
@@ -134,5 +135,18 @@
 9. Edit HomeScreen
 10. Add div.product-rating and use Rating component
 
+# 13 Product Screen
 
+1. get product id from request
+2. implement /api/product/:id api
+3. send ajax reqest to product api
+4. create div.details with 3 colums
+5. create back to result link
+6. column 1 for product image
+7. column 2 for product info
+8. colomn 3 for product action
+9. style .details and all columns
+10. create add to cart button with add_button id
+11. after_render() to add event to the button
+12. redirect user to cart/:product_id
 
