@@ -138,15 +138,6 @@
 # 13 Product Screen
 
 1. get product id from request
-2. implement /api/product/:id api
+2. create backend route /api/product/:id api
 3. send ajax reqest to product api
-4. create div.details with 3 colums
-5. create back to result link
-6. column 1 for product image
-7. column 2 for product info
-8. colomn 3 for product action
-9. style .details and all columns
-10. create add to cart button with add_button id
-11. after_render() to add event to the button
-12. redirect user to cart/:product_id
-
+4. display name of product for now only
