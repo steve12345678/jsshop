@@ -141,3 +141,5 @@
 2. create backend route /api/product/:id api
 3. send ajax reqest to product api
 4. display name of product for now only
+
+# 14
